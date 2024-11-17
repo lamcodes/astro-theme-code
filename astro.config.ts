@@ -9,7 +9,7 @@ import { remarkReadingTime } from './src/lib/plugin/remark-reading-time.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://blog.ppixiu.com',
+    site: 'https://blog.zkplife.top',
     integrations: [
         astroExpressiveCode(expressiveCodeOptions),
         sitemap(),

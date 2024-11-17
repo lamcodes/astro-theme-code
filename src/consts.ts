@@ -1,8 +1,8 @@
 // This is your config file, place any global data here.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-import type { AstroExpressiveCodeOptions } from 'astro-expressive-code';
 import { pluginTextMarkers as esTextMarkersPlugin } from '@expressive-code/plugin-text-markers';
+import type { AstroExpressiveCodeOptions } from 'astro-expressive-code';
 
 type Config = {
     title: string;
@@ -22,13 +22,13 @@ type SocialLink = {
 };
 
 export const siteConfig: Config = {
-    title: 'twiify的博客',
+    title: 'Zane的博客',
     description: '我的博客空间，记录生活的惊喜。',
     lang: 'zh-CN',
     helloworld: `生活总是充满惊喜，记录是最好的礼物。<br/>希望你能在这里找到一些惊喜。`,
     profile: {
-        author: 'twiify',
-        description: '简单生活，优雅前行。',
+        author: 'Zane',
+        description: '美人赠我金错刀，何以报之英琼瑶。',
     },
 };
 
@@ -46,7 +46,7 @@ export const socialLinks: Array<SocialLink> = [
     {
         icon: 'mdi:email',
         friendlyName: 'email',
-        link: 'mailto:ppixiu07@gmail.com',
+        link: 'mailto:Zane@gmail.com',
     },
     {
         icon: 'mdi:rss',

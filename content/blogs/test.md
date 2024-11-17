@@ -2,7 +2,7 @@
 id: 'unique-20241113-200540'
 title: '第一章'
 description: ''
-date_created: 2024-11-13
+date_created: 2024-11-13 12:00:00
 date_updated: 2024-11-13
 tags: ['test']
 katex: false
